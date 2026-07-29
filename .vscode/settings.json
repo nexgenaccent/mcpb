@@ -3,9 +3,19 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "eslint.validate": ["typescript"],
+  "eslint.validate": [
+    "typescript"
+  ],
   "[typescript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    ".mule": true
+  }
 }
